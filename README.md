@@ -15,8 +15,8 @@
 ## Measurements
 
 <p align="center">
-<img src="./meas/VSWR_RF_Input_RF_Tap_withCap_50ohmTerm_2024-03-03 12-27-44.png" width="300" height="300"/>
-<img src="./meas/VSWR_RF_Input_noCap_50ohmTerm_2024-03-03 11-19-03.png" width="300" height="300"/>
+<img src="./meas/VSWR_RF_Input_RF_Tap_withCap_50ohmTerm_2024-03-03 12-27-44.png" width="500" height="500"/>
+<img src="./meas/VSWR_RF_Input_noCap_50ohmTerm_2024-03-03 11-19-03.png" width="500" height="500"/>
 </p>
 
 <p align="center">
