@@ -6,9 +6,13 @@
 
 ## Credits
 
-*   Wes Hayward W7ZOI and Bob Larkin W7PUA for great base design of RF Tap described in QST June 2001 issue.
-  
+* Wes Hayward W7ZOI and Bob Larkin W7PUA for great base design of RF Tap described in QST June 2001 issue.
 
+## Design Overview
+
+## Circuit Simulations
+
+## Measurements
 
 ## References
 
