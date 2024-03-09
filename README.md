@@ -1,7 +1,7 @@
 ## RF Tap
 
 <p align="center">
-<img src="./img/MeasurementSetup.jpg" width="1000" height="700"/>
+<img src="./img/MeasurementSetup.jpg" width="1000" height="600"/>
 </p> 
 
 ## Credits
