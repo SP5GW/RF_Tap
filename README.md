@@ -8,6 +8,7 @@
 
 * Wes Hayward W7ZOI and Bob Larkin W7PUA for great base design of RF Tap described in QST June 2001 issue.
 * Barry L. Dorr for detailed analysis of resistive pi attenuator design.
+* Fesz (owner of Fesz Electronics youtube channel) for great hints regarding how to match ltspie simulations to NanoVNA measurements - You rock Fesz!!!
 
 ## Design Overview
 RF Tap is a device used to extract or monitor radio frequency (RF) signals from a transmission line without significantly disturbing the original signal. The RF signal at Tap output is attenuated to a level that is safe for measurement equipment such as oscilloscope. In case of this particular design attenuation is fixed to -40dB (voltage at RFTap output is x100 lower then one, which is present at the transmission path). All three RF Tap terminals have 50ohm impedance.
@@ -31,7 +32,7 @@ Now we can simulate RF Tap attenuation levels for unterminated and terminated wi
 <img src="./sim/S21SimulationResults.png" width="1000" height="700"/>
 </p>
 
-As can be seen in case of unterminated RF Path attenuation of RF Tap is equal -34dB and when the RF Path is terminated with 50 ohm load atenuation increases to -40dB. 
+As can be seen in case of unterminated RF Path attenuation of RF Tap is equal -34dB and when the RF Path is terminated with 50ohm load attenuation increases to -40dB. 
 
 As can be seen in Measurements section simulation results match perfectly actual measurements.
 
