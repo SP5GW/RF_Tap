@@ -28,7 +28,7 @@ As can be seen from the results above, in our case the calibration correction is
 Now we can simulate RF Tap attenuation levels for unterminated and terminated with 50ohm resistor RF Paths:
 
 <p align="center">
-<img src="./sim/S21SimulationResults.png" width="1000" height="800"/>
+<img src="./sim/S21SimulationResults.png" width="1000" height="700"/>
 </p>
 
 As can be seen in case of unterminated RF Path attenuation of RF Tap is equal -34dB and when the RF Path is terminated with 50 ohm load atenuation increases to -40dB. 
