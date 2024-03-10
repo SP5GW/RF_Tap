@@ -38,8 +38,8 @@ In both cases other end of RF path is terminated with 50 ohm dummy load.
 It can be observed that while capacitor C improves Tap's frequency response seen from Tap output (attenuation is closer to -40dB accross enntire band) it also slightly increases VSWR measured at one of RF path ends.
 
 
-### Insertion loss measured at RF path ends (RF Tap termination does not impact measurements
-)
+### Insertion loss measured at RF path ends (RF Tap termination does not impact measurements)
+
 <p align="center">
 <img src="./meas/S21_RF_Input_RF_Input_noCap_2024-03-03 11-49-04.png" width="300" height="300"/>
 </p>
