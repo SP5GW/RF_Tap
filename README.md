@@ -9,6 +9,8 @@
 * Wes Hayward W7ZOI and Bob Larkin W7PUA for great base design of RF Tap described in QST June 2001 issue.
 
 ## Design Overview
+RF Tap is a device used to extract or monitor radio frequency (RF) signals from a transmission line without significantly disturbing the original signal. The RF signal at Tap output is attenuated to a level that is safe for measurement equipment such as oscilloscope. In case of this particular design attenuation is fixed to -40dB (voltage at RFTap output is x100 lower then one, which is present at the transmission path). All three RF Tap terminals have 50ohm impedance.
+This design is based on work by Wes Hayward W7ZOI and Bob Larkin W7PUA described in [1]. The only modification made here is the use of precission potentiometer instead of one of the resistors used to attenuate RF signal for precise attenuation level adjustment.
 
 ## Circuit Simulations
 
@@ -44,9 +46,10 @@ It can be observed that while capacitor C improves Tap's frequency response seen
 <img src="./meas/S21_RF_Input_RF_Input_noCap_2024-03-03 11-49-04.png" width="300" height="300"/>
 </p>
 
-Insertion loss caused by RF Tap is not greater then -0.5dB accross entire band.
+Insertion loss caused by RF Tap is not greater then -0.5dB accross entire band (DC-500MHz). Presence of Cap does not impact insertion loss level in any significant way.
 RF Tap termination does not impact measurement results i.e. insertion loss is the same for RF Tap output terminated with 50ohm resistor and when RF Tap is left open.
 
 ## References
 
 [1] "Simple RF-Power Measurement", QST June 2001 by Wes Hayward W7ZOI and Bob Larkin W7PUA
+[2] "Ten Essential Skills for Electrical Engineers" by Barry L. Dorr, Willey 2014, Chapter: "How to Design Resistive Circuits"
