@@ -52,4 +52,5 @@ RF Tap termination does not impact measurement results i.e. insertion loss is th
 ## References
 
 [1] "Simple RF-Power Measurement", QST June 2001 by Wes Hayward W7ZOI and Bob Larkin W7PUA
+
 [2] "Ten Essential Skills for Electrical Engineers" by Barry L. Dorr, Willey 2014, Chapter: "How to Design Resistive Circuits"
