@@ -39,13 +39,13 @@ As can be seen in Measurements section simulation results match perfectly actual
 Simulation of the impact of parasitic capacitance present in the circuit and effect of corrective capacitance added in parallel to resistor R1 can be found below:
 
 <p align="center">
-<img src="./sim/RFTap_v1_terminated_RF_Path_FreqDepLoss.asc" width="1000" height="700"/>
+<img src="./sim/S21SimulationResults_FrequencyDependingLoss.png" width="1000" height="700"/>
 </p>
 
 Finally, calculations of resistor power ratings is given below (simulation run for peak power value of 100W):
 
 <p align="center">
-<img src="./sim/RFTap_v1_terminated_RF_Path_100W.asc" width="1000" height="700"/>
+<img src="./sim/ResistorPowerRatingSimulation.png" width="1000" height="700"/>
 </p>
 
 ## Measurements
