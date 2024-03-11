@@ -32,9 +32,21 @@ Now we can simulate RF Tap attenuation levels for unterminated and terminated wi
 <img src="./sim/S21SimulationResults.png" width="1000" height="700"/>
 </p>
 
-As can be seen in case of unterminated RF Path attenuation of RF Tap is equal -34dB and when the RF Path is terminated with 50ohm load attenuation increases to -40dB. 
+In case of unterminated RF Path attenuation of RF Tap is equal -34dB and when the RF Path is terminated with 50ohm load attenuation increases to -40dB. 
 
 As can be seen in Measurements section simulation results match perfectly actual measurements.
+
+Simulation of the impact of parasitic capacitance present in the circuit and effect of corrective capacitance added in parallel to resistor R1 can be found below:
+
+<p align="center">
+<img src="./sim/RFTap_v1_terminated_RF_Path_FreqDepLoss.asc" width="1000" height="700"/>
+</p>
+
+Finally, calculations of resistor power ratings is given below (simulation run for peak power value of 100W):
+
+<p align="center">
+<img src="./sim/RFTap_v1_terminated_RF_Path_100W.asc" width="1000" height="700"/>
+</p>
 
 ## Measurements
 
