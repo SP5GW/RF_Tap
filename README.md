@@ -20,6 +20,8 @@ Circuit Schematics:
 <img src="./schematics/RF_Tap_Schematics.png" width="400" height="300"/>
 </p>
 
+Resistors R1a, R1b and R1c shall be 500mW rated. R2 can be 125mW rated. Please note that if you do not terminate RF path with 50ohm dummy load or antenna, power (Prms) dissipated on one of R1 resistors goes up to 1.3W!
+
 Calculations of resistor values for given level of attenuation:
 
 <p align="center">
