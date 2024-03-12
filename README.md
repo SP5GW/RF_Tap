@@ -17,7 +17,7 @@ This design is based on work by Wes Hayward W7ZOI and Bob Larkin W7PUA described
 Circuit Schematics:
 
 <p align="center">
-<img src="./schematics/RF_Tap_Schematics.png" width="400" height="300"/>
+<img src="./schematics/RF_Tap_Schematics.png" width="300" height="200"/>
 </p>
 
 Calculations of resistor values for given level of attenuation:
