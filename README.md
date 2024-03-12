@@ -14,7 +14,17 @@
 RF Tap is a device used to extract or monitor radio frequency (RF) signals from a transmission line without significantly disturbing the original signal. The RF signal at Tap output is attenuated to a level that is safe for measurement equipment such as oscilloscope. In case of this particular design attenuation is fixed to -40dB (voltage at RFTap output is x100 lower then one, which is present at the transmission path). All three RF Tap terminals have 50ohm impedance.
 This design is based on work by Wes Hayward W7ZOI and Bob Larkin W7PUA described in [1]. The only modification made here is the use of precission potentiometer instead of one of the resistors used to attenuate RF signal for precise attenuation level adjustment.
 
+Circuit Schematics:
 
+<p align="center">
+<img src="./schematics/RF_Tap_Schematics.png" width="500" height="400"/>
+</p>
+
+Calculations of resistor values for given level of attenuation:
+
+<p align="center">
+<img src="./docs/PrinciplesOfOperations.png" width="500" height="900"/>
+</p>
 
 ## Circuit Simulations
 
