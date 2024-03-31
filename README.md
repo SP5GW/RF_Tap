@@ -101,6 +101,9 @@ When Tap is connected to high impedance measurement device such as scope with in
 
 <p align="center">
 <img src="./sim/RF_Tap_Modification_For_Scope.png" width="400" height="400"/>
+</p>
+
+<p align="center">
 <img src="./meas/RF_Tap_Scope_Adaptation_DSO_2024-03-31 20-39-00.png" width="400" height="400"/>
 </p>
 
