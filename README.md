@@ -97,11 +97,14 @@ RF Tap termination does not impact measurement results i.e. insertion loss is th
 
 ## RF Tap adaptation to high impedance measurement device such as scope
 
-When Tap is connected to high impedance measurement device such as scope with input impedance equal or higher then 1Mohm, its resistor R3 shown on the diagram below has to be doubled in value (increase from 2.5kohm to 5kohm) in order to maintain desired level of attenuation (-40dB / 1:100 Voltage attenuation). See below for both simulation result and real live voltage measurement.
+When Tap is connected to high impedance measurement device such as scope with input impedance equal or higher then 1Mohm, its resistor R3 shown on the diagram below has to be doubled in value (increase from 2.5kohm to 5kohm) in order to maintain desired level of attenuation (-40dB / 1:100 Voltage attenuation). 
+Simulation results: 
 
 <p align="center">
 <img src="./sim/RF_Tap_Modification_For_Scope.png" width="400" height="400"/>
 </p>
+
+Actual voltage measurements, input voltage supplied from functional generator (50ohm output impedance):
 
 <p align="center">
 <img src="./meas/RF_Tap_Scope_Adaptation_DSO_2024-03-31 20-39-00.png" width="400" height="400"/>
